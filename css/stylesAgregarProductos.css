@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(../src/imagenDeFondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input.text{
+    border: 1px solid;
+    border-radius: 2em;
+    width: 25em;
+    height: 2em;
+    outline: none;
+    background-color: #FFFF;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1em;
+}
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 1em;
+}
+
+option{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: aqua;
+    height: 5em;
+    border: dotted;
+}
+
+div.agregarProducto{
+    text-align: center;
+    width: 30em;
+    height: 18em;
+    border-color: blue;
+    border-style: dotted;
+    border-radius: 5em;
+    background-color: #D6E3F8;
+    padding-top: 2em;
+    margin-top: 10em;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+button{
+    margin-left: 1em;
+    width: 10em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: 1px solid;
+    border-radius: 1em;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+
+ul{
+    display: flex;  /*permite poner en linea horizontal todos los elementos del listado*/
+    position: absolute;
+    justify-content: space-evenly;
+    width: 100%;
+    top: 25%;
+    margin: 0;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+}
+
+li{
+    list-style-type:none;
+
+}
+
+li.fuenteNav{
+    font-size: calc(0.5em + 1vw);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.divNav{
+    position: relative;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+input.admin{
+    margin-top: 12px;
+}

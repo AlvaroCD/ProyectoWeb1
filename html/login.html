@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesLogin.css">
+    <title>Inicio de sesión</title>
+</head>
+<body>
+
+    <!-- Inicia código de NavBar-->
+    <div class="divNav">
+        <nav>
+            <ul>
+                <a href="home.html"><li class="fuenteNav"><img src="../src/naiky.png" alt=""></li></a>
+                <a href="registro.html"><li class="fuenteNav">Registro</li></a>
+                <a href="login.html"><li class="fuenteNav">Iniciar sesión</li></a>
+                <a href="productos.html"><li class="fuenteNav">Productos</li></a>
+                <a href="https://goo.gl/maps/X7bsBFnwRLst6n5F7"><li class="fuenteNav">Ubicación</li></a>
+            </ul>
+        </nav>
+    </div>
+    <!--Termina código de NavBar -->
+
+
+    <form action="../php/login.php" method="POST">
+        <div class="credenciales">
+            <h2>Correo electrónico</h3>
+                <br>
+            <input type="text" name="emailLogin">
+            <br><br>
+            <h2>Contraseña</h2>
+            <br>
+            <input type="password" name="passLogin">
+            <br><br><br>
+            <button type="submit">Ingresar</button>
+            <p class="registro">¿No tienes una cuenta? <a href="../html/registro.html">Registrate!</a> </p>
+        </div>
+    </form>
+
+    <footer>
+        <div>
+            <p>Todos los derechos reservados &copy; 2023</p>
+          </div>
+    </footer>
+</body>
+</html>

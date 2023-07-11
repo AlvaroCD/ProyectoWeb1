@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(../src/imagenDeFondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.credenciales{
+    height: 15em;
+    width: 30em;
+    background-color: #D6E3F8;
+    border-color:blue ;
+    border-style: dotted;
+    border-radius: 5em;
+    text-align: center;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #D6E3F8;
+}
+
+input{
+    border: 1px solid;
+    border-radius: 2em;
+    width: 25em;
+    height: 2em;
+    outline: none;
+    background-color: #FFFF;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav{
+    background-color: aqua;
+    height: 5em;
+    border: dotted;
+}
+
+ul{
+    display: flex;  /*permite poner en linea horizontal todos los elementos del listado*/
+    position: absolute;
+    justify-content: space-evenly;
+    width: 100%;
+    top: 25%;
+    margin: 0;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+}
+
+li{
+    list-style-type:none;
+
+}
+
+li.fuenteNav{
+    font-size: calc(0.5em + 1vw);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.divNav{
+    position: relative;
+
+}
+
+
+button{
+    margin-left: 1em;
+    width: 7em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: 1px solid;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+p.registro{
+    position: absolute; 
+    bottom: 0;
+    padding-left: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+footer{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: solid;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(../src/imagenDeFondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: aqua;
+    height: 5em;
+    border: dotted;
+}
+
+ul{
+    display: flex;  /*permite poner en linea horizontal todos los elementos del listado*/
+    position: absolute;
+    justify-content: space-evenly;
+    width: 100%;
+    top: 25%;
+    margin: 0;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+}
+
+li{
+    list-style-type:none;
+
+}
+
+li.fuenteNav{
+    font-size: calc(0.5em + 1vw);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.divNav{
+    position: relative;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div.global{
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.product{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5em;
+    margin-left: 2em;
+    margin-top: 2em;
+    border-radius: 2em;
+    border: solid;
+}
+
+button{
+    margin-left: 1em;
+    width: 3em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: 1px solid;
+    border-radius: 1em;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#boton-buscar{
+    margin-left: 1em;
+    width: 10em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: 1px solid;
+    border-radius: 1em;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+#boton-comprar{
+    margin-left: 1em;
+    width: 30em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: 1px solid;
+    border-radius: 1em;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: dotted;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+
+input.text{
+    border: 1px solid;
+    border-radius: 2em;
+    width: 25em;
+    height: 2em;
+    outline: none;
+    background-color: #FFFF;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1em;
+}
+
+div.productItem {
+    height: 15em;
+    position: relative; /* Agregamos posición relativa al div */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2em;
+    margin-left: 2em;
+    margin-top: 2em;
+    border-radius: 2em;
+    border: solid;
+    background-color: aliceblue;
+}
